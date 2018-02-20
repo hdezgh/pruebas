@@ -1,0 +1,40 @@
+<HTML>
+<Head>
+<Style>
+	a{
+    color:white;
+}
+#wrapper{
+    background:white url(https://wla.hallco.org/web/wp-content/uploads/Screen-Shot-2017-08-29-at-9.08.54-AM.png) no-repeat 0 0;
+    position:relative;
+    z-index:0;
+    width:400px;
+    height:400px;
+}
+
+#pos1{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:80px;
+    left:260px; 
+}
+#pos2{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:40%;
+    left:60%;
+}
+#pos1:hover, #pos2:hover{
+    border:1px solid red;
+}
+	</Style>
+</Head>
+<Body>
+<div id="wrapper">
+    <a href="http://www.bbc.com"> <div id="pos1"></div></a>
+    <a href="cnn.com"> <div id="pos2"></div></a>
+</div>
+</Body>
+</HTML>
